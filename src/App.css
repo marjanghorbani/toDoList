@@ -1,0 +1,77 @@
+body {
+  background: linear-gradient(90deg, #39bc81, #b3dbd3, #3526be);
+  min-height: 70vh;
+  padding: 1rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f8f9fa;
+  font-family: "Architects Daughter", cursive;
+  text-align: center;
+  font-size: 130%;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  min-height: 500px;
+  max-width: 500px;
+  min-width: 250px;
+  background: #200a3e;
+  background-size: 25px 25px;
+  border-radius: 20px;
+  box-shadow: 4px 3px 7px 2px #00000040;
+  padding: 1rem;
+  box-sizing: border-box;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.heading h1 {
+  padding: 0.2rem 1.2rem;
+  border-radius:10px;
+  background-color: #BB9CC0;
+  font-size: 1.5rem;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -ms-border-radius:10px;
+  -o-border-radius:10px;
+} 
+
+.form input {
+  box-sizing: border-box;
+  background-color: transparent;
+  padding: 0.7rem;
+  /* border-bottom-right-radius: 15px 3px; */
+  /* border-bottom-left-radius: 3px 15px; */
+  border: solid 3px transparent;
+  border-bottom: dashed 3px #BB9CC0;
+  font-family: "Architects Daughter", cursive;
+  font-size: 1rem;
+  color: hsl(0, 0%, 100%);
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 9px;
+  border: none;
+  font-family: "Architects Daughter", cursive;
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: #BB9CC0;
+}
+
+li {
+  text-align: left;
+  position: relative;
+  padding: 0.5rem;
+} 
